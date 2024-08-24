@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    color: #e91e63;
+    font-size: 36px;
+    margin: 0;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    font-size: 24px;
+    color: #e91e63;
+    border-bottom: 2px solid #e91e63;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+section p, section ul {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+.contact p {
+    font-weight: bold;
+    font-size: 18px;
+}
+.pdf-container {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.pdf-link {
+    margin-top: 20px;
+}
+
+.pdf-link a {
+    color: #e91e63;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.pdf-link a:hover {
+    text-decoration: underline;
+}
